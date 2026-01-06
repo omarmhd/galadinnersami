@@ -466,8 +466,12 @@
                 <h3 class="section-title"><i class="fas fa-location-dot"></i> Location</h3>
                 <p class="text-muted mb-3"><small>{{$event->address}}</small></p>
                 <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14464.092335816074!2d46.52809739112852!3d24.999331561902896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ebfc851d7cd73%3A0xc9d53c5bd6d2da10!2z2YXZhtiq2KzYuSDYr9ix2Kkg2KfZhNix2YrYp9i2INin2YbYqtix2YPZiNmG2KrZitmG2YbYqtin2YQ!5e0!3m2!1sar!2seg!4v1767737491254!5m2!1sar!2seg" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
-        </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14464.092335816074!2d46.52809739112852!3d24.999331561902896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ebfc851d7cd73%3A0xc9d53c5bd6d2da10!5e0!3m2!1sar!2seg!4v1767737491254"
+                        style="border:0;"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>        </div>
     </div>
 </div>
 
