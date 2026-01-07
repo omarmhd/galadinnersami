@@ -479,13 +479,7 @@
                 </p>
 
                 <div class="map-responsive">
-                    <iframe
-                        src="https://maps.app.goo.gl/HfEKyERCViRTFoVBA"
-                        style="border:0;"
-                        allowfullscreen
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28928.917177356412!2d46.52892400000001!3d24.99622!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ebfc851d7cd73%3A0xc9d53c5bd6d2da10!2z2YXZhtiq2KzYuSDYr9ix2Kkg2KfZhNix2YrYp9i2INin2YbYqtix2YPZiNmG2KrZitmG2YbYqtin2YQ!5e0!3m2!1sar!2seg!4v1767783326950!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
