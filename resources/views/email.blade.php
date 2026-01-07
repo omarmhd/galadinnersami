@@ -128,7 +128,7 @@
 
                     <tr>
                         <td class="label">Event:</td>
-                        <td>{{ $event->name }}</td>
+                        <td>{{ $event->title_en }}</td>
                     </tr>
                     <tr>
                         <td class="label">Date & Time:</td>
