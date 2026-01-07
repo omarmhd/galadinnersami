@@ -27,7 +27,7 @@
             padding: 30px;
         }
         .ticket-card {
-            border: 2px dashed #46AA32; /* لون مطابق لثيم الموقع */
+            border: 2px dashed #DABC9A; /* لون مطابق لثيم الموقع */
             background-color: #f9fff9;
             border-radius: 10px;
             padding: 20px;
@@ -42,7 +42,7 @@
         }
         .ticket-header h3 {
             margin: 0;
-            color: #2E8B57;
+            color: #DABC9A;
         }
         .info-table {
             width: 100%;
@@ -78,7 +78,7 @@
             font-weight: bold;
             color: white;
         }
-        .badge-main { background-color: #2E8B57; }
+        .badge-main { background-color: rgba(218, 188, 154, 0.6); }
         .badge-guest { background-color: #17a2b8; }
         .badge-child { background-color: #ffc107; color: #333; }
     </style>
