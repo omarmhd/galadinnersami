@@ -39,7 +39,7 @@ class EventInvitationController extends Controller
         COUNT(*) as all_count,
         SUM(status = 'pending') as pending,
         SUM(status = 'accepted') as accepted,
-        SUM(status = 'declined') as declined
+        SUM(status = 'declined') as declined,
         SUM(status = 'maybe') as maybe
     ") ->first();;
         $rows = $query->latest()->paginate(6);
