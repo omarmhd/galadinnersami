@@ -14,10 +14,7 @@ use App\Http\Controllers\EventInvitationController;
 |
 */
 
-Route::get('/', function () {
-    $event=\Illuminate\Support\Facades\DB::table("events")->where("name","SAMI-AEC")->first();
-    return view('index',compact("event"));
-});
+Route::redirect('/',"/dashboard");
 Route::post("save",[\App\Http\Controllers\HomeController::class,"save"])->name("save");
 Route::get("check-email",[\App\Http\Controllers\HomeController::class,"check_email"])->name("check_email");
 
