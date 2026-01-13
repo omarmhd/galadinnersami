@@ -160,7 +160,7 @@ class EventInvitationController extends Controller
                 'selected_guests' => $request->response_status == 'accepted' ? ($request->guests_count ?? 0) : 0,
             ]);
 
-            if($request->response_status == 'accepted'){
+            if($request->response_status == 'accepted' or $request->response_status == 'maybe'){
 
             $tickets = [];
 
