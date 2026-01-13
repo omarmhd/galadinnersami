@@ -89,7 +89,7 @@
                                                 <td align="center" style="padding: 12px; width: 50%;">
                                                     <div style="font-size: 18px;">📍</div>
                                                     <div style="font-size: 13px; color: #4A5568; font-weight: bold; margin-top: 4px;">Location</div>
-                                                    <div style="font-size: 12px; color: #718096;">{{ $event->address }}</div>
+                                                    <div style="font-size: 12px; color: #718096;"><a href="https://maps.app.goo.gl/sxQ26WDKgV5s8M1R6">{{ $event->address }}</a></div>
                                                 </td>
                                             </tr>
                                         </table>

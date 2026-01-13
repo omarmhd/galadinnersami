@@ -110,7 +110,7 @@
                 <div class="event-meta">
                     <div class="meta-item"><i class="far fa-calendar-alt"></i> {{ \Carbon\Carbon::parse($event->date)->format('D M d, Y') }}</div>
                     <div class="meta-item"><i class="far fa-clock"></i> {{$event->from_time}}-{{$event->to_time}}</div>
-                    <div class="meta-item"><i class="fa fa-location-arrow"></i> {{$event->address}}</div>
+                    <div class="meta-item"><a href="https://maps.app.goo.gl/CcbukaXy4DyZckLy7"><i class="fa fa-location-arrow"></i> {{$event->address}}</a></div>
                 </div>
 
                 <div class="text-center mb-5">
@@ -288,7 +288,7 @@
                             successMsg.innerText = "Check your email. Your entry tickets have been sent. Please scan them upon arrival.";
                             successIcon.className = "fas fa-envelope-circle-check text-success";
                         } else if(status === 'maybe') {
-                            successTitle.style.color = '#ffc107'; // أصفر
+                            successTitle.style.color = '#ffc107';
                             successTitle.innerText = "Response Recorded";
                             successMsg.innerText = "We've noted you as 'Maybe'. Please check your email for your entry ticket and QR code.";
                             successIcon.className = "fas fa-question-circle text-warning";
