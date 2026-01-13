@@ -130,10 +130,10 @@
                             <h5>Yes, I'll Attend</h5>
                         </div>
 
-{{--                        <div class="status-tile" id="btnMaybe" onclick="selectStatus('maybe')">--}}
-{{--                            <i class="fas fa-question-circle" style="font-size: 2.5rem; margin-bottom: 15px; display: block; color: #d1d5db;"></i>--}}
-{{--                            <h5>Maybe</h5>--}}
-{{--                        </div>--}}
+                        <div class="status-tile" id="btnMaybe" onclick="selectStatus('maybe')">
+                            <i class="fas fa-question-circle" style="font-size: 2.5rem; margin-bottom: 15px; display: block; color: #d1d5db;"></i>
+                            <h5>Maybe</h5>
+                        </div>
 
                         <div class="status-tile" id="btnDecline" onclick="selectStatus('declined')">
                             <i class="fas fa-times-circle" style="font-size: 2.5rem; margin-bottom: 15px; display: block; color: #d1d5db;"></i>
@@ -290,7 +290,7 @@
                         } else if(status === 'maybe') {
                             successTitle.style.color = '#ffc107'; // أصفر
                             successTitle.innerText = "Response Recorded";
-                            successMsg.innerText = "We've noted you as 'Maybe'. Please let us know when you decide.";
+                            successMsg.innerText = "We've noted you as 'Maybe'. Please check your email for your entry ticket and QR code.";
                             successIcon.className = "fas fa-question-circle text-warning";
                         } else {
                             successTitle.style.color = '#6c757d';
