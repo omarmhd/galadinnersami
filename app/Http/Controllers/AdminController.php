@@ -38,7 +38,7 @@ class AdminController extends Controller
 
 
     public function checked_in(Request $request,$id=null){
-        if (!$request->filled('qrData')) {
+        if (!$request->qrData) {
             return response()->json([
                 'success' => false,
                 'message' => 'Invalid QR data'

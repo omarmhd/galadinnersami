@@ -179,7 +179,7 @@ class EventInvitationController extends Controller
                 $qr = InvitationQr::create([
                     'event_invitation_id' => $guest->id,
                     'type'  => strtolower($type),
-                    'token' => Str::uuid(),
+                    'token' => $qrToken,
                 ]);
             }
 
