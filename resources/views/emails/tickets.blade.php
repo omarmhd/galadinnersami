@@ -94,7 +94,7 @@
                                     <td align="center" style="padding: 35px 20px;">
 
                                         <span style="background-color: #FEF9EF; color: #C5A065; padding: 6px 16px; border-radius: 50px; font-size: 11px; font-weight: bold; letter-spacing: 1px; border: 1px solid #F0EAE0; text-transform: uppercase;">
-                                         <Main></Main>
+                                         Main
                                         </span>
 
                                         <h2 style="margin: 15px 0 5px 0; color: #1a202c; font-size: 22px;">{{ $invitation->invitee_name }}</h2>
