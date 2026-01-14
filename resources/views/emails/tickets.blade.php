@@ -113,7 +113,7 @@
                                                     <div style="font-size: 20px;">📍</div>
                                                     <div style="font-size: 13px; color: #2D3748; font-weight: bold; margin-top: 5px;">Location</div>
                                                     <div style="font-size: 12px; color: #718096; margin-top: 2px;">
-                                                        <a href="http://maps.google.com/?q={{ $event->address }}" style="color: #C5A065; text-decoration: underline;">View Map</a>
+                                                        <a href="https://maps.app.goo.gl/6AoTuCwYNpDdJ43x7" style="color: #C5A065; text-decoration: underline;"> {{ $event->address }}-View Map</a>
                                                     </div>
                                                 </td>
                                             </tr>
