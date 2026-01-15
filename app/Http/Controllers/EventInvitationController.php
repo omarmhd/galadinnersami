@@ -182,7 +182,7 @@ class EventInvitationController extends Controller
             |--------------------------------------------------------------------------
             */
             $validator = Validator::make($request->all(), [
-                'response_status' => 'required|in:accepted,declined,maybe',
+                'status' => 'required|in:accepted,declined,maybe',
                 'guests_count' => 'nullable|integer|min:0|max:' . $guest->allowed_guests,
             ]);
 
