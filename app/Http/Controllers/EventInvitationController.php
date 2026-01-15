@@ -259,7 +259,7 @@ class EventInvitationController extends Controller
 
             return response()->json([
                 'success' => false,
-                'message' => 'حدث خطأ غير متوقع، يرجى المحاولة لاحقًا'
+                'message' => $e->getMessage()
             ], 500);
         }
     }

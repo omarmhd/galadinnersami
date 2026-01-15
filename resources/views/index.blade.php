@@ -432,17 +432,22 @@
                         window.scrollTo({ top: 0, behavior: 'smooth' });
                     }
                 })
-                .catch(error => {
-                    if (error?.response?.data?.message) {
+                .catch(function (error) {
+                    let errorMessage = 'Something went wrong. Please try again.';
+
+                    if (error && error.response && error.response.data && error.response.data.message) {
                         errorMessage = error.response.data.message;
-                    } else if (error?.message) {
+                    } else if (error && error.message) {
                         errorMessage = error.message;
                     }
+
                     alert(errorMessage);
+
                     activeBtn.disabled = false;
                     btnText.style.opacity = '1';
                     spinner.classList.add('d-none');
                 });
+
         });
     }
 </script>
