@@ -435,6 +435,11 @@
                 })
                 .catch(function (error) {
                     let errorMessage = 'Something went wrong. Please try again.';
+                    alert(
+                        errorMessage +
+                        "\n\nIf you face any issues, please contact:\n" +
+                        "Abdulrahman Al Henaki\n📞 +966 55 185 8731"
+                    );
 
                     if (error && error.response && error.response.data && error.response.data.message) {
                         errorMessage = error.response.data.message;
@@ -442,7 +447,6 @@
                         errorMessage = error.message;
                     }
 
-                    alert(errorMessage);
 
                     activeBtn.disabled = false;
                     btnText.style.opacity = '1';
