@@ -54,7 +54,6 @@
 
             padding: 15px; /* مساحة داخلية حول الشعار */
             border-radius: 16px; /* زوايا دائرية للخلفية */
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* ظل خفيف */
             z-index: 10;
             display: flex;
             align-items: center;
@@ -82,7 +81,6 @@
             padding: 5px 25px;     /* هوامش داخلية */
             border-radius: 50px;   /* شكل كبسولة */
             margin-top: 15px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         @media (max-width: 576px) {
