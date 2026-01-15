@@ -51,7 +51,7 @@
 
                 <div style="margin-bottom: 35px;">
                     <div style="margin-bottom: 35px;">
-                        <img src="{{asset("Logo-SAMI.png")}}" alt="Logo-SAMI.png" >
+                        <img src="{{asset("Logo-SAMI.png")}}" alt="Logo-SAMI.png" style="width: 200px">
                     </div>
                 </div>
 
