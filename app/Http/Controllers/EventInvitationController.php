@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Throwable;
 
+use Illuminate\Support\Facades\Log;
 use App\Mail\InvitationSent;
 use App\Mail\TicketDetailsMail;
 use App\Mail\TicketMail;
@@ -141,10 +143,8 @@ class EventInvitationController extends Controller
 
         return view('index', compact('guest',"event"));
     }
-    use Throwable;
-    use Illuminate\Http\Request;
-    use Illuminate\Support\Facades\Log;
-    use Illuminate\Support\Facades\Validator;
+
+
 
     public function submit(Request $request, string $token, QrCodeService $qrService)
     {
