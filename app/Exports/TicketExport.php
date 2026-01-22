@@ -39,6 +39,8 @@ class TicketExport implements FromCollection, WithHeadings, WithMapping,WithStyl
     {
         return [
             $ticket->id,
+            $ticket->invitee_name, // Assuming you have a customer relationship
+
             $ticket->invitee_email, // Assuming you have a customer relationship
             $ticket->invitee_position,
             $ticket->invitee_nationality,
