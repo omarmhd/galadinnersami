@@ -26,13 +26,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Paginator::useBootstrap();
-        $fontDir = storage_path('fonts/'); // المجلد الذي وضعت فيه الخطوط
-        $pdf = Pdf::getDompdf();
 
-        $options = $pdf->getOptions();
-        $options->set('isHtml5ParserEnabled', true);
-        $options->set('isRemoteEnabled', true);
-        $options->set('defaultFont', 'Amiri'); // اسم الخط كما في ttf
-        $pdf->setOptions($options);
     }
 }
